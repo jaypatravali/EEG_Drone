@@ -1,0 +1,21 @@
+function [ f1 ] = right1( dta,count )
+f1=0;
+if (count==0)
+    if (dta>70)
+        f1=1;
+    end
+end
+
+if (count==1)
+    if (dta>70)
+        f1=2;
+    end
+end
+
+if (count==2)
+    if (dta<70)
+        f1=3;
+    end
+end
+
+end
